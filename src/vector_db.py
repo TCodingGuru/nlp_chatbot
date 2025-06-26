@@ -1,5 +1,3 @@
-# src/vector.py
-
 import numpy as np
 from numpy.linalg import norm
 

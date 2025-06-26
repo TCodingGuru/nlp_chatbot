@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 import numpy as np
 from sentence_transformers import SentenceTransformer
-from vector_db import find_most_similar
+from src.vector_db import find_most_similar
 
 VECTOR_STORE_PATH = "data/vector_store/vector_store.pkl"
 MODEL_NAME = "all-MiniLM-L6-v2"
