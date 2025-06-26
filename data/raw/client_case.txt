@@ -1,0 +1,10 @@
+TelcoX is a mid-sized telecommunications company operating across Europe. Recently, the company has seen a significant increase in customer churn, especially among monthly contract users. 
+
+The goal of this project is to build a predictive model that can help identify customers who are likely to cancel their service, allowing TelcoX to proactively take action (e.g., special offers, customer service outreach).
+
+Key client goals:
+- Understand what features contribute most to churn
+- Create a reliable, interpretable model
+- Build a tool that can be used by business analysts to flag at-risk customers
+
+Target audience: Internal data science and customer service teams.

@@ -1,0 +1,22 @@
+We built a classification model using logistic regression to predict churn.
+
+Steps:
+- One-hot encoded categorical variables
+- Normalized numeric columns
+- Trained with stratified 80/20 train-test split
+- Evaluated using accuracy, precision, recall, and ROC AUC
+
+Performance:
+- Accuracy: 80%
+- Precision: 72%
+- Recall: 69%
+- ROC AUC: 0.84
+
+The model showed high importance for features like:
+- contract type
+- tenure
+- monthly charges
+
+We considered XGBoost as an alternative but prioritized interpretability for business users. Logistic regression was sufficient and more transparent.
+
+The model is now ready to be integrated into a chatbot interface for real-time Q&A and explanation.

@@ -1,0 +1,17 @@
+We received a dataset from TelcoX containing information about 7,043 customers, including demographics, account details, contract types, and service usage.
+
+Key columns include:
+- tenure (number of months the customer has stayed)
+- contract type (month-to-month, one year, two year)
+- monthly charges
+- total charges
+- internet service type
+- churn (Yes/No)
+
+Observations:
+- Customers on month-to-month contracts have higher churn
+- Shorter tenure is associated with higher churn
+- High monthly charges often lead to dissatisfaction
+
+Missing data:
+- Some entries in TotalCharges were blank (fixed by converting to float and removing rows with nulls)
