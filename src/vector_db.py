@@ -1,8 +1,4 @@
 import numpy as np
-from numpy.linalg import norm
-
-def cosine_similarity(a, b):
-    return np.dot(a, b) / (norm(a) * norm(b) + 1e-10)
 
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity

@@ -1,5 +1,3 @@
-# src/utils.py
-
 import pickle
 from pathlib import Path
 
