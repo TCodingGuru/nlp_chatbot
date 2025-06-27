@@ -1,6 +1,4 @@
 import numpy as np
-
-import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 
 def find_most_similar(query_embedding, embeddings, top_k=5):

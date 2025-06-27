@@ -8,7 +8,7 @@ import ollama
 MODEL_NAME = "all-MiniLM-L6-v2"
 model = SentenceTransformer(MODEL_NAME)
 
-OLLAMA_MODEL = "llama3"  # or mistral, phi3, etc.
+OLLAMA_MODEL = "llama3"
 
 def build_prompt(history, context_chunks, user_input):
     """

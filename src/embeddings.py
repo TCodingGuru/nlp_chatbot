@@ -1,8 +1,5 @@
-# src/embeddings.py
-
 from pathlib import Path
 from sentence_transformers import SentenceTransformer
-import numpy as np
 import pickle
 
 PROCESSED_DIR = Path("data/processed")
