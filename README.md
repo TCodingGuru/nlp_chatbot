@@ -97,8 +97,10 @@ Our chatbot uses a **Retrieval-Augmented Generation (RAG)** architecture, implem
 ## Prerequisites
 **Ollama Local LLM**
 - Download and install the Ollama app from https://ollama.com/download.
-- Launch the Ollama app and ensure the local server is running.
-- Have at least one Ollama-compatible model installed locally
+- Launch the Ollama app (it runs a local server at http://localhost:11434)
+```bash
+- install ollama pull llama3
+```
 
 ## Setup Instructions
 ```bash
