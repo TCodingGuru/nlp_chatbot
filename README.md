@@ -94,9 +94,15 @@ Our chatbot uses a **Retrieval-Augmented Generation (RAG)** architecture, implem
 - **Transparent NLP**: We avoided black-box libraries (e.g., LangChain) to fully implement and understand every RAG step.
 - **Modular Design**: Each stage (preprocessing, embeddings, vector DB, LLM) is modular and testable.
 
+## Prerequisites
+**Ollama Local LLM**
+- Download and install the Ollama app from https://ollama.com/download.
+- Launch the Ollama app and ensure the local server is running.
+- Have at least one Ollama-compatible model installed locally
+
 ## Setup Instructions
 ```bash
-py -3.8 -m venv .venv    #project incompatibility with python 3.9 and higher
+py -3.8 -m venv .venv    # project incompatibility with python 3.9 and higher
 source .venv/bin/activate        # Windows: .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 pip install sentence-transformers
